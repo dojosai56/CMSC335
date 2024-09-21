@@ -1,0 +1,181 @@
+<Project>
+  <Name>CMSC335 Projects</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Project 1</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Shape</Name>
+        <Access>Public</Access>
+        <Location left="738" top="37" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int numOfDimensions</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TwoDimensionalShape</Name>
+        <Access>Public</Access>
+        <Location left="567" top="312" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double area</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ThreeDimensionalShape</Name>
+        <Access>Public</Access>
+        <Location left="900" top="312" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double volume</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Circle</Name>
+        <Access>Public</Access>
+        <Location left="28" top="589" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double radius</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Square</Name>
+        <Access>Public</Access>
+        <Location left="231" top="594" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double length</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Triangle</Name>
+        <Access>Public</Access>
+        <Location left="431" top="594" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double height</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Rectangle</Name>
+        <Access>Public</Access>
+        <Location left="634" top="589" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double length</Member>
+        <Member type="Field">double width</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Sphere</Name>
+        <Access>Public</Access>
+        <Location left="819" top="595" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cube</Name>
+        <Access>Public</Access>
+        <Location left="1003" top="594" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cone</Name>
+        <Access>Public</Access>
+        <Location left="1184" top="595" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cylinder</Name>
+        <Access>Public</Access>
+        <Location left="1377" top="600" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Torus</Name>
+        <Access>Public</Access>
+        <Location left="1569" top="602" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="5">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="9">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="10">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

@@ -1,0 +1,93 @@
+<Project>
+  <Name>CMSC335 Object Oriented Programming</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Objects</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Train</Name>
+        <Access>Public</Access>
+        <Location left="477" top="85" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String fuelSource</Member>
+        <Member type="Method">public void brake()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>shortdistanceTrain</Name>
+        <Access>Public</Access>
+        <Location left="215" top="362" />
+        <Size width="188" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int standingPolesNumber</Member>
+        <Member type="Method">public void makeStops()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>longdistanceTrain</Name>
+        <Access>Public</Access>
+        <Location left="735" top="362" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int bathroonNumbers</Member>
+        <Member type="Method">public void serveFood()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Subway</Name>
+        <Access>Public</Access>
+        <Location left="43" top="667" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String lineColor</Member>
+        <Member type="Method">public void doorWarning()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Tram</Name>
+        <Access>Public</Access>
+        <Location left="372" top="667" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String currentStreet</Member>
+        <Member type="Method">public void changeTracks()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
